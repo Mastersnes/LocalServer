@@ -1,2 +1,3 @@
-# LocalServer
-Outils permettant de générer un server local et un exe accompagnant
+# Local Server
+Permet de creer un server http local pour lancer les Jeux de Bebel
+Launch4j permet de creer le exe

@@ -1,0 +1,25 @@
+<div class="game page">
+	<div class="plan background"></div>
+	<div class="plan stage"></div>
+	<div class="plan frontground"></div>
+	
+	<!-- debug -->
+	<div class="hitbox hidden"></div>
+</div>
+
+<div class="page collapse pause" id="pause">
+	<div class="page mask"></div>
+	<div class="h-center v-center text-center">
+		<div class="text">PAUSE</div>
+		<div class="text"><%=data.text.get("point")%> : <span id="point"></span></div>
+		<div class="text"><%=data.text.get("deathNb")%> : <span id="deathNb"></span></div>
+		<div class="text"><%=data.text.get("codeHolder")%> : <span id="code"></span></div>
+	</div>
+</div>
+
+<div class="page" id="cinematique">
+	<div class="page" id="next"></div>
+	<div class="page" id="current"></div>
+</div>
+
+<div class="page collapse" id="end"></div>
